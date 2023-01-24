@@ -1,0 +1,22 @@
+{
+  "name": "str-includes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meet-moon/str-includes.git"
+  },
+  "keywords": [
+    "str-includes"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meet-moon/str-includes/issues"
+  },
+  "homepage": "https://github.com/meet-moon/str-includes#readme"
+}
