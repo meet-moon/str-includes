@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/meet-moon/str-includes#readme",
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.22.5",
     "@babel/preset-react": "^7.22.5"
   }
 }
