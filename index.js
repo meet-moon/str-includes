@@ -3,4 +3,7 @@ const Button = () => {
         <button>This is a button component</button>
     )
 }
-export default Button;
+export { Button }
+export function sayHello() {
+    console.log('hi')
+}
