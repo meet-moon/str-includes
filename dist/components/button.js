@@ -11,9 +11,7 @@ const Button = props => {
     className: className,
     type: props.type,
     name: props.name,
-    value: props.value,
-    disabled: props.disabled,
-    onClick: props.handleClick
+    value: props.value
   }, props.children);
 };
 var _default = Button;
