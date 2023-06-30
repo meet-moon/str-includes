@@ -1,9 +1,9 @@
-const Button = () => {
+import React from 'react'
+
+const Index = () => {
     return (
-        <button>This is a button component</button>
+        <div>Index</div>
     )
 }
-export { Button }
-export function sayHello() {
-    console.log('hi')
-}
+
+export default Index
