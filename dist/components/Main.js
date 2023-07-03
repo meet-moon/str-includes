@@ -6,9 +6,13 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const Main = () => {
+const Main = _ref => {
+  let {
+    divOnClick
+  } = _ref;
   return /*#__PURE__*/_react.default.createElement("main", {
-    class: "py-6 px-4 sm:p-6 md:py-10 md:px-8"
+    class: "py-6 px-4 sm:p-6 md:py-10 md:px-8",
+    onClick: divOnClick
   }, /*#__PURE__*/_react.default.createElement("div", {
     class: "max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2"
   }, /*#__PURE__*/_react.default.createElement("div", {
