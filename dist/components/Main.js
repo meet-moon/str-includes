@@ -9,48 +9,84 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Main = _ref => {
   let {
-    divOnClick,
-    threeDotsClick
+    divOnClick
   } = _ref;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "w-[536px] h-[93px] justify-start items-start inline-flex",
+  return /*#__PURE__*/_react.default.createElement("main", {
+    class: "py-6 px-4 sm:p-6 md:py-10 md:px-8",
     onClick: divOnClick
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "grow shrink basis-0 self-stretch p-4 bg-neutral-50 border border border border border-zinc-300 flex-col justify-start items-start gap-3 inline-flex"
+    class: "max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "self-stretch h-[61px] flex-col justify-start items-end gap-2 flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "self-stretch justify-start items-start gap-1 inline-flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "grow shrink basis-0 flex-col justify-start items-start gap-1 inline-flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "justify-start items-start gap-1 inline-flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col justify-start items-start gap-2.5 inline-flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-black text-[10px] font-medium tracking-wide"
-  }, "22:00 - 23:00"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col justify-start items-start gap-2.5 flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-neutral-400 text-[10px] font-medium uppercase tracking-wide"
-  }, "P1"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-right text-neutral-400 text-[18px] font-medium",
-    onClick: threeDotsClick
-  }, "\u2807")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "self-stretch justify-between items-center gap-[214px] inline-flex"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-black text-[16px] font-medium"
-  }, "Mowing"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "w-[23px] h-[23px] relative"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "w-[23px] h-[23px] left-0 top-0 absolute opacity-60 bg-cyan-500 rounded-full"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "w-[23px] left-0 top-[4.62px] absolute text-center text-white text-[10px] font-semibold"
-  }, "AP"))))));
+    class: "relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    class: "mt-1 text-lg font-semibold text-white sm:text-slate-900 md:text-2xl dark:sm:text-white"
+  }, "Beach House in Collingwood"), /*#__PURE__*/_react.default.createElement("p", {
+    class: "text-sm leading-4 font-medium text-white sm:text-slate-500 dark:sm:text-slate-400"
+  }, "Entire house")), /*#__PURE__*/_react.default.createElement("div", {
+    class: "grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: "https://tailwindcss.com/_next/static/media/beach-house.9b9ee168.jpg",
+    alt: "",
+    class: "w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full",
+    loading: "lazy"
+  })), /*#__PURE__*/_react.default.createElement("dl", {
+    class: "mt-4 text-xs font-medium flex items-center row-start-2 sm:mt-1 sm:row-start-3 md:mt-2.5 lg:row-start-2"
+  }, /*#__PURE__*/_react.default.createElement("dt", {
+    class: "sr-only"
+  }, "Reviews"), /*#__PURE__*/_react.default.createElement("dd", {
+    class: "text-indigo-600 flex items-center dark:text-indigo-400"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "24",
+    height: "24",
+    fill: "none",
+    "aria-hidden": "true",
+    class: "mr-1 stroke-current dark:stroke-indigo-500"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "m12 5 2 5h5l-4 4 2.103 5L12 16l-5.103 3L9 14l-4-4h5l2-5Z",
+    "stroke-width": "2",
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round"
+  })), /*#__PURE__*/_react.default.createElement("span", null, "4.89 ", /*#__PURE__*/_react.default.createElement("span", {
+    class: "text-slate-400 font-normal"
+  }, "(128)"))), /*#__PURE__*/_react.default.createElement("dt", {
+    class: "sr-only"
+  }, "Location"), /*#__PURE__*/_react.default.createElement("dd", {
+    class: "flex items-center"
+  }, /*#__PURE__*/_react.default.createElement("svg", {
+    width: "2",
+    height: "2",
+    "aria-hidden": "true",
+    fill: "currentColor",
+    class: "mx-3 text-slate-300"
+  }, /*#__PURE__*/_react.default.createElement("circle", {
+    cx: "1",
+    cy: "1",
+    r: "1"
+  })), /*#__PURE__*/_react.default.createElement("svg", {
+    width: "24",
+    height: "24",
+    fill: "none",
+    stroke: "currentColor",
+    "stroke-width": "2",
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
+    class: "mr-1 text-slate-400 dark:text-slate-500",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    d: "M18 11.034C18 14.897 12 19 12 19s-6-4.103-6-7.966C6 7.655 8.819 5 12 5s6 2.655 6 6.034Z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    d: "M14 11a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"
+  })), "Collingwood, Ontario")), /*#__PURE__*/_react.default.createElement("div", {
+    class: "mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4"
+  }, /*#__PURE__*/_react.default.createElement("button", {
+    type: "button",
+    class: "bg-indigo-600 text-white text-sm leading-6 font-medium py-2 px-3 rounded-lg"
+  }, "Check availability")), /*#__PURE__*/_react.default.createElement("button", null, "Review"), /*#__PURE__*/_react.default.createElement("p", {
+    class: "mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400"
+  }, "This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.")));
 };
 Main.propTypes = {
-  divOnClick: _propTypes.default.func,
-  threeDotsClick: _propTypes.default.func
+  divOnClick: _propTypes.default.func
 };
 var _default = Main;
 exports.default = _default;
