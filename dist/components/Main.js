@@ -4,6 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+var _propTypes = _interopRequireDefault(require("prop-types"));
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Main = _ref => {
@@ -83,6 +84,9 @@ const Main = _ref => {
   }, "Check availability")), /*#__PURE__*/_react.default.createElement("button", null, "Review"), /*#__PURE__*/_react.default.createElement("p", {
     class: "mt-4 text-sm leading-6 col-start-1 sm:col-span-2 lg:mt-6 lg:row-start-4 lg:col-span-1 dark:text-slate-400"
   }, "This sunny and spacious room is for those traveling light and looking for a comfy and cosy place to lay their head for a night or two. This beach house sits in a vibrant neighborhood littered with cafes, pubs, restaurants and supermarkets and is close to all the major attractions such as Edinburgh Castle and Arthur's Seat.")));
+};
+Main.propTypes = {
+  divOnClick: _propTypes.default.func
 };
 var _default = Main;
 exports.default = _default;
